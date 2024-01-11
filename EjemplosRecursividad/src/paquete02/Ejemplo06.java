@@ -19,6 +19,8 @@ public class Ejemplo06 {
         for (int i = 0; i < valor1.length; i++) {
             System.out.printf("El valor es: %d\n", 
                     obtenerSuma(valor1[i], valor2[i]));
+            // este for envia de manera mas sencilla los valores de los arreglos
+            // para que este obtenga la suma dentro de la funcion 
         }
         
         for (int i = 0; i < valor1.length; i++) {
@@ -26,6 +28,9 @@ public class Ejemplo06 {
             int num2 = valor2[i];
             System.out.printf("El valor es: %d\n", 
                     obtenerSuma(num1, num2));
+            // este for tiene la misma funcion solo que asigna los valores de 
+            // los arreglos en variables de tipo entero para poder enviarlos 
+            // a la funcion obtener suma
         }
         
         for (int i = 0; i < valor1.length; i++) {
@@ -33,6 +38,9 @@ public class Ejemplo06 {
             int num2 = valor2[i];
             int suma = obtenerSuma(num1, num2); 
             System.out.printf("El valor es: %d\n", suma);
+           // este for como el de arriba transforma las variables de los arreglos
+           // en enteros pero tambien se transforma en un entero lo que devuelve
+           // el valor de la funcion obtener suma para presentarlo
         }
         
         
